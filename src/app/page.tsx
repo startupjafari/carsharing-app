@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <main>
-        <p>Главный блок</p>
+        <p>Главный блок - StartupJafari</p>
       </main>
       <footer>
         <p>Подвал</p>
