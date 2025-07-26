@@ -1,14 +1,15 @@
-"use client";
+import Link from 'next/link';
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div>
-      <main>
-        <p>Главный блок - StartupJafari</p>
-      </main>
-      <footer>
-        <p>Подвал</p>
-      </footer>
-    </div>
+    <header>
+      <nav>
+        <Link href="/">Главная</Link>
+        <Link href="/cars">Автомобили</Link>
+        <Link href="/profile">Профиль</Link>
+        <Link href="/auth/register">Регистрация</Link>
+        <Link href="/auth/login">Войти</Link>
+      </nav>
+    </header>
   );
 }
